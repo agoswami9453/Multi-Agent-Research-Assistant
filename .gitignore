@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local application data
+database/
+logs/
+uploads/
+vector_store/
+sample_docs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/tasks.json
+.idea/
+.DS_Store
+Thumbs.db
