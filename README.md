@@ -2,6 +2,8 @@
 
 An enterprise-grade, production-ready **Multi-Agent Research Assistant** built with **LangGraph**, **LangChain**, **Ollama (llama3.1)**, **FAISS**, **SQLite**, **Streamlit**, and **Tavily Web Search API**.
 
+It combines document-based RAG, real-time web search, intelligent query routing, answer verification, citations, and conversational memory to deliver context-aware research with PDF, DOCX, and Markdown export.
+
 Unlike simple RAG chatbots, this application employs a **Planner Agent** to dynamically analyze query intent, uploaded document availability, retrieval confidence scores, and freshness requirements to route queries along optimal agent execution paths.
 
 ---
